@@ -1,0 +1,38 @@
+{
+  "site": {
+    "project_name": "Cubbard Road Marlboro Parametric Site Study",
+    "location": "Cubbard Drive / Old Indian Road / Route 9W, Marlborough, NY",
+    "sbl": "103.3-1-14",
+    "official_parent_lot_acres_from_prior_filing": 2.65,
+    "kml_study_hull_area_sf_reference": 164420.71,
+    "kml_study_hull_area_acres_reference": 3.775,
+    "coordinate_system": "WGS84 source points; app uses local ENU feet for schematic geometry",
+    "not_for_construction": true
+  },
+  "model_b_default": {
+    "building_length_ft": 210,
+    "building_width_ft": 160,
+    "building_height_ft": 32,
+    "office_length_ft": 60,
+    "office_width_ft": 50,
+    "office_height_ft": 18,
+    "parking_area_sf": 14700,
+    "truck_apron_area_sf": 8100,
+    "equipment_yard_area_sf": 20000,
+    "entry_throat_area_sf": 7150,
+    "stormwater_pond_area_sf": 5550,
+    "stormwater_bioretention_area_sf": 7362.5,
+    "trailer_bays_count": 4,
+    "trailer_bay_length_ft": 100,
+    "trailer_bay_width_ft": 18,
+    "design_load_length_ft": 70,
+    "design_vehicle_combo_length_ft": 100,
+    "nominal_orientation_deg": -15.12,
+    "notes": "Parametric seed follows v0.7 Model B geometry/fit-check values."
+  },
+  "stormwater_screening": {
+    "nysdec_disturbance_threshold_sf": 43560,
+    "pond_engineering_rule": "Any proposed pond, detention basin, retention basin, infiltration basin, or impoundment must be engineered and reviewed.",
+    "screening_only": true
+  }
+}
