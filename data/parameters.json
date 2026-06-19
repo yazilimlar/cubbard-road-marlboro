@@ -1,12 +1,13 @@
 {
   "site": {
-    "project_name": "Cubbard Road Marlboro Parametric Site Study",
+    "project_name": "Cubbard Road Marlboro Model B 3D Measurement Engine",
     "location": "Cubbard Drive / Old Indian Road / Route 9W, Marlborough, NY",
     "sbl": "103.3-1-14",
     "official_parent_lot_acres_from_prior_filing": 2.65,
     "kml_study_hull_area_sf_reference": 164420.71,
     "kml_study_hull_area_acres_reference": 3.775,
     "coordinate_system": "WGS84 source points; app uses local ENU feet for schematic geometry",
+    "active_baseline": "Model B only",
     "not_for_construction": true
   },
   "model_b_default": {
@@ -16,6 +17,7 @@
     "office_length_ft": 60,
     "office_width_ft": 50,
     "office_height_ft": 18,
+    "office_inside_warehouse": false,
     "parking_area_sf": 14700,
     "truck_apron_area_sf": 8100,
     "equipment_yard_area_sf": 20000,
@@ -28,7 +30,23 @@
     "design_load_length_ft": 70,
     "design_vehicle_combo_length_ft": 100,
     "nominal_orientation_deg": -15.12,
-    "notes": "Parametric seed follows v0.7 Model B geometry/fit-check values."
+    "roof_pitch_rise_per_12": 0,
+    "manual_slope_rise_ft": 0,
+    "manual_slope_run_ft": 100,
+    "notes": "Model B-only parametric seed for schematic measurement and planning-board preparation."
+  },
+  "measurement": {
+    "units": ["ft", "sf", "cf", "cy", "acres", "%", "degrees"],
+    "default_source": "Model B schematic parameter geometry",
+    "default_confidence": "C",
+    "disturbance_includes_trailer_staging_by_default": false,
+    "ai_generated_renderings_are_measurement_sources": false,
+    "confidence_grades": {
+      "A": "survey / LiDAR / stamped CAD-BIM / controlled metric source",
+      "B": "controlled photogrammetry with GCPs or known scale",
+      "C": "photo-calibrated schematic geometry or manual dimensions with known references",
+      "D": "visual-only / conceptual / unverified geometry"
+    }
   },
   "stormwater_screening": {
     "nysdec_disturbance_threshold_sf": 43560,
