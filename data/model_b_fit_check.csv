@@ -1,0 +1,16 @@
+index,model,name,category,geometry,area_sf,length_lf,outside_sf,outside_lf,status
+0,B,Model B warehouse from printed photos - 210 ft x 160 ft,building,Polygon,33600.0,,0.0,,PASS
+1,B,Model B front office/support - 60 ft x 50 ft,office,Polygon,3000.0,,0.0,,PASS
+2,B,Model B front visitor/employee parking field,parking,Polygon,14700.0,,0.0,,PASS
+3,B,Model B truck apron / circulation court,truck_court,Polygon,8100.0,,0.0,,PASS
+4,B,Model B rear service / limited equipment yard,yard,Polygon,20000.0,,68.19,,WARNING
+5,B,Model B Route 9W entry throat / internal driveway,driveway,Polygon,7150.0,,0.0,,PASS
+6,B,Model B lower-left stormwater pond,stormwater,Polygon,5550.0,,969.38,,WARNING
+7,B,Model B lower-right stormwater / bioretention basin,stormwater,Polygon,7362.5,,0.0,,PASS
+8,B,Model B 100-ft trailer staging bay 1,equipment_staging,Polygon,1800.0,,0.0,,PASS
+9,B,Model B 100-ft trailer staging bay 2,equipment_staging,Polygon,1800.0,,0.0,,PASS
+10,B,Model B 100-ft trailer staging bay 3,equipment_staging,Polygon,1800.0,,0.0,,PASS
+11,B,Model B 100-ft trailer staging bay 4,equipment_staging,Polygon,1800.0,,0.0,,PASS
+12,B,Model B static 100-ft lowboy envelope at entry court,equipment,Polygon,1200.0,,0.0,,PASS
+13,B,Model B static 70-ft equipment load near rear yard,equipment,Polygon,840.0,,0.0,,PASS
+14,B,Model B on-site heavy-haul centerline,movement,LineString,,515.34,,0.0,PASS
